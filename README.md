@@ -36,3 +36,5 @@ https://openweathermap.org/forecast5
 
 https://github.com/amanda-er/weatherAPI.git
 
+https://amanda-er.github.io/weatherAPI/
+
