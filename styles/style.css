@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.weather-header {
+    background: #20084a;
+    background: -webkit-linear-gradient(right, #20084a, #3463bc);
+    background: -moz-linear-gradient(right, #20084a, #3463bc);
+    background: linear-gradient(to left, #20084a, #3463bc);
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.weather-hr {
+    margin-left: 0.5rem;
+    width: 100%;
+}
+
+#form-heading {
+    margin: 0.5rem;
+}
+
+.weather-search {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem !important;
+    color: #1a1a1a;
+    background-color: #ffffff;
+    margin: 0.625rem 0;
+    font-size: 1.2rem;
+    border: 1px solid #484848;
+    border-radius: 0.3rem;
+}
+
+.search-button {
+    margin: 0.5rem;
+    width: 100%;
+    background-color: #5098e6;
+    color: #d9e9e8;
+}
+
+.history-btn {
+    text-align: center;
+    display: inline-block;
+    padding: 0.5rem 1.2rem;
+    margin: 0.5rem;
+    width: 100%;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    border: 1px solid transparent;
+    outline: none;
+    color: #1a1a1a;
+    background-color: #aeaeae;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.weather-img {
+    border-style: none;
+    vertical-align: middle;
+}
+
+.five-day-card {
+    position: relative;
+    width: 20%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .left-information {
+  width: 30%;
+  float: left;
+  padding: 20px;
+}
+
+.weather-header {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.weather-search {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.weather-hr {
+  margin-top: 20px;
+}
+
+.col-md {
+  width: calc(100% / 5); 
+  float: left;
+  padding: 10px;
+}
+
+.five-day-card {
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
